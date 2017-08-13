@@ -1,0 +1,76 @@
+@charset "UTF-8";
+body{
+    font-family: Arial,sans-serif;
+    background: url("http://localhost/clinica/css2/imagens/dente.jpg") no-repeat;
+    background-size: 100%;
+}
+h1{
+    font-family: "Comic Sans MS";
+    color: rgba(26,162,141,1);
+}
+h2{
+    font-family: "Comic Sans MS";
+    color: rgba(26,162,141,1);
+}
+h3{
+    font-family: "Comic Sans MS";
+    color: rgba(26,162,141,1);
+
+}
+li{
+    font-family: "Arial Narrow";
+    color:#006600;
+    font-size: 20px;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 15px;
+    margin: 4px;
+    transition: background-color 1s;
+
+}
+li.form1{
+    display: block;
+    margin-top: 3px;
+}
+li.form2{
+    display: block;
+    margin-left: 1000px;
+    margin-top: -650px;
+}
+li.form3{
+    display: block;
+    margin-left: 500px;
+    margin-top: -660px;
+}
+
+nav{
+    display: block;
+    height: 200px;
+    width: 200px;
+}
+a{
+    color:#006600 ;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    margin-top: 2px;
+    margin-left: 1000px;
+}
+img{
+    display: block;
+    margin-left: 550px;
+    margin-top: -300px;
+}
+input[type=submit]{
+    display: block;
+    margin-top: 300px;
+    margin-left: 1000px;
+    width: 30%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+input[type=text]{
+    width: 200px;
+    padding: 6px 6px;
+    box-sizing: border-box;
+}

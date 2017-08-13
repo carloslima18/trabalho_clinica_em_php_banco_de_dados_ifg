@@ -1,0 +1,12 @@
+<phpunit colors="true" >
+    <testsuites>
+        <testsuite name="Clinic Test Suit">
+            <directory>./tests/phpUnit</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true" >
+            <directory suffix=".php" >./src/clinic/</directory>
+        </whitelist>
+    </filter>
+</phpunit>

@@ -1,0 +1,15 @@
+{
+    "require": {
+        "phpunit/phpunit": "5.*",
+        "phpdocumentor/phpdocumentor": "2.*",
+        "symfony/routing": "3.*",
+        "symfony/http-kernel": "3.*",
+        "symfony/framework-bundle": "3.*",
+        "codeception/codeception": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}

@@ -1,0 +1,52 @@
+@charset "utf-8";
+body{
+    font-family: Arial,sans-serif;
+    background: url("imagens/dente.jpg");
+    background-size: 100%;
+}
+iframe#frame-spec{
+    width: 700px;
+    height: 800px;
+    border:  none;
+    overflow: hidden; /*evita que a rolagem do iframe aconteça*/
+    margin-left: 750px;
+    margin-top: -250px;
+}
+li {
+    font-family: "Arial Narrow";
+    color: #006600;
+    font-size: 20px;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 15px;
+    margin: 4px;
+    transition: background-color 1s;
+}
+li:hover{
+    background-color: #4cae4c;
+}
+
+nav.b1{
+    display: block;
+    height: 200px;
+    width: 270px;
+}
+nav.b2{
+    display: block;
+    height: 200px;
+    width: 270px;
+    margin-left: 280px;
+    margin-top: -124px;
+}
+nav.b2 a{
+    color:#006600 ;
+    text-decoration: none;
+}
+nav.b1 a{
+    color:#006600 ;
+    text-decoration: none;
+}
+h2{
+    font-family: "Arial Narrow";
+    color: #5bb75b;
+}

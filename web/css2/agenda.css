@@ -1,0 +1,47 @@
+@charset "utf-8";
+body{
+    background: url("imagens/dente.jpg");
+    background-size: 100%;
+}
+table#ano td{
+    border: solid #d5d5d5;
+    width: 600px;
+    padding: 15px 15px 15px 15px;
+    background-color: rgba(137,197,245,.5);
+    text-align: center;
+    font-family: "Algerian";
+    font-size: 30px;
+}
+table#resto td{
+    font-family: arial, sans-serif;
+    width: 600px;
+    border: 1px solid #dddddd;
+    color: white;
+    padding: 25px;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgba(40,40,40,.5);
+}
+table#hr tr{
+    padding: 5px;
+    font-family: "Arial Black";
+    font-size: 14px;
+    color: #2C2C2C;
+}
+
+table#hr td{
+    border: solid #666666;
+    background-color: rgba(40,40,40,.5);;
+    width: 600px;
+    padding: 7px;
+}
+input{
+    margin: auto 10px auto 10px;
+}
+.calendario{
+    margin: 40px;
+    width: 700px;
+    height: 300px;
+    font-size: 14px;
+    position: relative;
+}

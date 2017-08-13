@@ -1,0 +1,50 @@
+@charset "UTF-8";
+body{
+    font-family: Arial,sans-serif;
+    background: url("imagens/dente.jpg") no-repeat;
+    background-size: 100%;
+}
+h1{
+    font-family: "Comic Sans MS";
+    color: rgba(26,162,141,1);
+}
+h2{
+    font-family: "Comic Sans MS";
+    color: rgba(26,162,141,1);
+}
+h3{
+    font-family: "Comic Sans MS";
+    color: rgba(26,162,141,1);
+
+}
+li{
+    font-family: "Arial Narrow";
+    color:#006600;
+    font-size: 20px;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 15px;
+    margin: 4px;
+    transition: background-color 1s;
+
+}
+li:hover{
+    background-color: #4cae4c;
+}
+nav{
+    display: block;
+    height: 200px;
+    width: 200px;
+}
+nav a{
+    color:#006600 ;
+    text-decoration: none;
+}
+img{
+    display: block;
+    margin-left: 550px;
+    margin-top: -300px;
+}
+
+
+
